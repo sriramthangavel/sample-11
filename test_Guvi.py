@@ -16,8 +16,8 @@ def test_Login():
 
     username = driver.find_element(By.XPATH, "//input[@id ='email']")
     username.send_keys("sriramsmrg@gmail.com")
-    # password = driver.find_element(By.XPATH, "//input[@id = 'password']")
-    # password.send_keys("Studio@23")
-    # login_button = driver.find_element(By.XPATH, "//a[@id = 'login-btn']").click()
-    # time.sleep(5)
-    # driver.quit()
+    password = driver.find_element(By.XPATH, "//input[@id = 'password']")
+    password.send_keys("Studio@23")
+    login_button = driver.find_element(By.XPATH, "//a[@id = 'login-btn']").click()
+    time.sleep(5)
+    driver.quit()
