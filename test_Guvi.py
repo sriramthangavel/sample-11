@@ -100,6 +100,3 @@ def test_Signup_validation():
     sign_in_page_URL = driver.current_url  # Storing the login page url in a variable       # validating the url
     assert sign_in_page_URL == "https://www.guvi.in/register/?sourceUri=http%3A%2F%2Fwww.guvi.in%2F"  # Camparing the url with the variable
     driver.quit()
-
-
-// this is a sample line
